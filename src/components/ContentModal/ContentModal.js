@@ -9,6 +9,7 @@ import { img_500, unavailable, unavailableLandscape } from '../../config/config'
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import '../ContentModal/ContentModal.css'
 import Carousel from '../Carousel/Carousel';
+import CloseIcon from '@mui/icons-material/Close';
 
 
 const style = {
@@ -70,8 +71,10 @@ export default function ContentModal({ children, media_type, id}) {
       >
         <Fade in={open}>
           <Box sx={style}>
+
+           <CloseIcon className='closeIcon' fontSize='large' onClick={handleClose}/>
             {content && (
-                <Box className='ContentModal'>
+            <Box className='ContentModal'>
                 <img className='ContentModal__portrait' alt={content.name || content.title} src={content.poster_path?`${img_500}/${content.poster_path}`:unavailable}/>
                 <img className='ContentModal__landscape' alt={content.name || content.title} src={content.backdrop_path?`${img_500}/${content.backdrop_path}`:unavailableLandscape}/>
                 <Box className='ContentModal__about'>
@@ -98,6 +101,7 @@ export default function ContentModal({ children, media_type, id}) {
                     href={`https://www.youtube.com/watch?v=${video}`}
                     >Watch the Trailer</Button>
                 </Box>
+                
             </Box>
             )}
           </Box>
