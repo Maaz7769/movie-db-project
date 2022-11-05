@@ -18,4 +18,12 @@ Bottom Navigation Bar, Pagination, Search, Filter based on the chips, Carousel
 ![ss2](https://user-images.githubusercontent.com/52111360/200109280-950ad3a3-fe44-4513-821d-22ab9242c2af.png)
 ![ss3](https://user-images.githubusercontent.com/52111360/200109282-91abeb69-fff3-44e9-b734-2dc3bcbf6539.png)
 
+## Connect with Me
+
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/maaz_khan_77)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maazkhan77)
+
+If You Like the Movie Directory Website give the :star: on this repo!
+
 
